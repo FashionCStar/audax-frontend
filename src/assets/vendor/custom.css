@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    color: #081158;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Red Hat Display', sans-serif;
+    color: #081158;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+    color: #081158;
+}
+.top-title {
+    color: #32325d;
+}
+.navbar-light .navbar-nav .active > .nav-link i {
+    color:#3255ff;
+}
+
+.total-avatar {
+    background: #3154ff !important;
+    position: relative;
+    top: -12px;
+}
+.custom-tabel .thead-light th {
+    color: #000;
+    background: transparent;
+}
+.tb-title {
+    color: #000;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+.triangle i {
+    font-size: 23px;
+    position: relative;
+}
+.total-record-duration {
+    background-image: linear-gradient(to right, #3153ff, #5c50ff, #794dff, #9148ff, #a743fd);
+}
+.information-title {
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+    display: block;
+}
+
+.total-record-duration p, 
+.total-record-duration span,
+.total-record-duration .card-title {
+    color: #fff;
+}
+.sm-icon {
+    position: relative;
+    top: 9px;
+}
+.recording-title span {
+    color: #3255ff;
+    font-size: 17px;
+}
+i.fas.fa-bookmark.text-info {
+    color: #3255ff !important;
+}
+h1.main-page-title {
+    position: relative;
+    display: inline-block;
+    top: -54px;
+}
+.all-participant-outer-row {
+    margin-bottom: 4rem;
+}
+.potential-condidtes-table tbody.list td {
+    padding: 1.9em;
+}
+.page-item.active .page-link {
+    background-color: #3256ff;
+    border-color: #3256ff;
+}
+ul.left-custom-tabs.nav.nav-tabs {
+    border: none;
+}
+.zoom-meeting-top-title {
+    font-size: 1.5em;
+    margin-top: 11px;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: bolder !important;
+}
+.green-title-main {
+    color: #2dce89;
+}
+.participants-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15);
+    border-radius: 0.375rem;
+    padding: 2rem 1.5rem;
+}
+.participants-row .tb-title {
+    font-size: 14px;
+    margin-left: 0.5em;
+}
+h2.BigTitle {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.tab-inner-content {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+.tab-inner-content span {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 2rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+.left-custom-tabs .nav-link {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding: 0.7rem 1rem;
+    margin-right: 1rem;
+    background: transparent !important;
+    border-radius: 0 !important;
+}
+.left-custom-tabs a.active.nav-link {
+    color: #3256ff !important;
+    border-bottom: 2px solid #3256ff !important;
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+}
+.left-custom-tabs .nav-link:hover {
+    border-color: transparent !important;
+}
+.custom-card {
+    background: #fff;
+    border-bottom: 4px solid #3256ff;
+    padding: 1.5rem 1rem 1rem;
+    box-shadow: -1px 0px 10px rgba(0,0,0,0.1);
+    position: relative;
+    margin-bottom: 1rem;
+}
+.custom-card-body i {
+    position: absolute;
+    right: 20px;
+}
+.custom-card-body span {
+    font-weight: 600;
+    font-size: 14px;
+}
+.custom-card-body p {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 0.5rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.custom-sidebar {
+    margin-top: 6rem;
+}
+span.custom-card-footer {
+    color: #b4b4b4;
+    font-size: 14px;
+    font-weight: 500;
+}
+.highlight-card {
+    border-color: #f6b4f1;
+}
+.custom-sidebra-header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background: #3256ff;
+    padding: 0.9rem 0;
+}
+.custom-sidebra-header ul li {
+    font-weight: 500;
+    color: #bec9ff;
+    text-transform: capitalize;
+    text-align: center;
+    width: 33.3333%;
+}
+li.li-active {
+    color: #fff !important;
+}
+.tab-inner-content h4 {
+    font-size: 1.3rem;
+}
+span.transcript-time strong {
+    color: #3356ff;
+}
+span.transcript-time {
+    display: block;
+    padding: 0;
+    font-weight: 500;
+    color: #959595;
+    margin-top: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+span.sentiment-title {
+    margin-top: 0.5rem;
+    font-weight: normal;
+    margin-bottom: 0.3em;
+}
+ul.sentiment-progress-bar {
+    margin: 0;
+    display: flex;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+ul.sentiment-progress-bar {
+    margin: 0;
+    display: flex;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+ul.sentiment-progress-bar li:last-child {
+    position: absolute;
+    right: 28%;
+    top: 13px;
+}
+ul.sentiment-progress-bar li:first-of-type {
+    background: #eb7f81;
+    width: 33.333%;
+    height: 10px;
+}
+span.transcript-user-title {
+    margin-top: 0;
+    font-size: 15px;
+    margin-left: 0.5rem;
+}
+ul.sentiment-progress-bar li:nth-child(2) {
+    background: #ede255;
+    width: 33.333%;
+    height: 10px;
+}
+ul.sentiment-progress-bar li:nth-child(3) {
+    background: #a5cc4f;
+    width: 33.333%;
+    height: 10px;
+}
+ul.sentiment-progress-bar li:last-child span {
+    margin: 0;
+    font-weight: normal;
+    font-size: 14px;
+}
+ul.sentiment-progress-bar li:last-child span:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 6px 10px 6px;
+    border-color: transparent transparent #000000 transparent;
+    left: 4px;
+    top: -8px;
+}
+p.color-para span {
+    padding: 0 5px;
+    margin: 0;
+    display: initial;
+    color: #081158;
+    font-weight: normal;
+}
+.transcript_row.row {
+    margin-bottom: 7rem;
+}
